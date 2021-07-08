@@ -11,7 +11,7 @@ const Me = ExtensionUtils.getCurrentExtension();
 function init() {}
 
 function buildPrefsWidget() {
-    this.settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.distinct');
+    this.settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.distinctPlusPlus');
 
     let prefsWidget = new Gtk.Box({
         margin: 30,
@@ -32,7 +32,7 @@ function buildPrefsWidget() {
         halign: Gtk.Align.START,
         use_markup: true,
         visible: true
-    });
+        });
 
     box.add(choiceLabel);
 
@@ -65,7 +65,6 @@ function buildPrefsWidget() {
             }
         });
     }
-
     prefsWidget.add(box);
 
     if (currentRadio) {
@@ -74,3 +73,5 @@ function buildPrefsWidget() {
 
     return prefsWidget;
 }
+
+

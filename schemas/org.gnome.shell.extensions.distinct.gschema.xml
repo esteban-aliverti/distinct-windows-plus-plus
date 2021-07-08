@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.distinct" path="/org/gnome/shell/extensions/distinct/">
+  <schema id="org.gnome.shell.extensions.distinctPlusPlus" path="/org/gnome/shell/extensions/distinctPlusPlus/">
     <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
     <key name="marker-choice" type="s">
       <default>"shapes"</default>

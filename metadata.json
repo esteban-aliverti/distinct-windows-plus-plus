@@ -1,8 +1,8 @@
 {
-    "uuid": "distinct@sireliah.com",
-    "name": "Distinct Windows",
+    "uuid": "distinct-plus-plus@ealiverti.com",
+    "name": "Distinct Windows++",
     "description": "Visually differentiate windows with colors and symbols",
-    "version": 4,
+    "version": 1,
     "shell-version": [ "3.38" ],
-    "url": "https://github.com/sireliah/distinct-windows"
+    "url": "https://github.com/esteban-aliverti/distinct-windows-plus-plus"
 }
